@@ -17,12 +17,9 @@ header{
         div{
             font-family: 'Glass Antiqua';
             font-style: italic;
-            color: white;
-            font-weight: bold;
             background-color: $color-fondo;
-            text-align: center;
             padding-top: 65px;
-                      
+            @include aline;         
         }
         .estilos-p{
             font-family: Alegreya sans sc regular;

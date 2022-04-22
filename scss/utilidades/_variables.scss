@@ -2,3 +2,11 @@
 // variables
 $color-principal: #AEAFEA;
 $color-fondo: #DCDDFF;
+
+@mixin aline {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+}
+
+

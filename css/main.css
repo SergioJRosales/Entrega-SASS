@@ -13,11 +13,11 @@ header {
 main div {
   font-family: 'Glass Antiqua';
   font-style: italic;
-  color: white;
-  font-weight: bold;
   background-color: #DCDDFF;
+  padding-top: 65px;
   text-align: center;
-  padding-top: 65px; }
+  color: white;
+  font-weight: bold; }
 
 main .estilos-p {
   font-family: Alegreya sans sc regular;
