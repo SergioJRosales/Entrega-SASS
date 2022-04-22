@@ -1,13 +1,53 @@
-// Estilos generales
-// variables
-
 @import "utilidades/variables";
 
 header{
-
+    background-color: $color-principal;
+    text-align: center;
     nav ul li{
-        &:hover{
+        font-family: 'Glass Antiqua';
+        font-size: 20px;
+        box-shadow: 1rem whitesmoke;
+        justify-content: space-around;
+        
+        &:hover{ background-color: #b8baf8;
+                 transform: scale(1.2);}
+                }    
+    }
+    main{
+        div{
+            font-family: 'Glass Antiqua';
+            font-style: italic;
+            color: white;
+            font-weight: bold;
+            background-color: $color-fondo;
+            text-align: center;
+            padding-top: 65px;
+                      
+        }
+        .estilos-p{
+            font-family: Alegreya sans sc regular;
+            text-align: center;
+        }
+        .Log-sdesc{
+            background-color: white;
+            animation-duration: 10s;
+            
+        }
+        .redes{
+            padding: 1rem;
+            background-color: whitesmoke;
+            font-family: glass Antiqua;
+            color: black;
+            font-size: 1.5rem ;
+        }
+        .fondo-main{
+            padding-top: 80px;
+        }
 
-                }
-}       
-}
+    }
+    footer{
+        background-color: $color-principal;
+        font-family: 'Glass Antiqua';
+        font-size: 12px;
+        text-align: center;
+    }

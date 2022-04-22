@@ -1,0 +1,44 @@
+header {
+  background-color: #AEAFEA;
+  text-align: center; }
+  header nav ul li {
+    font-family: 'Glass Antiqua';
+    font-size: 20px;
+    box-shadow: 1rem whitesmoke;
+    justify-content: space-around; }
+    header nav ul li:hover {
+      background-color: #b8baf8;
+      transform: scale(1.2); }
+
+main div {
+  font-family: 'Glass Antiqua';
+  font-style: italic;
+  color: white;
+  font-weight: bold;
+  background-color: #DCDDFF;
+  text-align: center;
+  padding-top: 65px; }
+
+main .estilos-p {
+  font-family: Alegreya sans sc regular;
+  text-align: center; }
+
+main .Log-sdesc {
+  background-color: white;
+  animation-duration: 10s; }
+
+main .redes {
+  padding: 1rem;
+  background-color: whitesmoke;
+  font-family: glass Antiqua;
+  color: black;
+  font-size: 1.5rem; }
+
+main .fondo-main {
+  padding-top: 80px; }
+
+footer {
+  background-color: #AEAFEA;
+  font-family: 'Glass Antiqua';
+  font-size: 12px;
+  text-align: center; }
